@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExtensionBundleId="com.dlighthouse.t1" ExtensionBundleName="Testing DLightHouse" ExtensionBundleVersion="1.0" Version="6.0"> <!-- MAJOR-VERSION-UPDATE-MARKER -->
+<ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExtensionBundleId="com.dlighthouse.helloworld" ExtensionBundleName="Hello World" ExtensionBundleVersion="1.0" Version="6.0"> <!-- MAJOR-VERSION-UPDATE-MARKER -->
     <ExtensionList>
-        <Extension Id="com.dlighthouse.t1.ext" Version="6.1.0"/>
+        <Extension Id="com.dlighthouse.helloworld.simple" Version="6.1.0"/>
     </ExtensionList>
     <ExecutionEnvironment>
         <HostList>
@@ -28,7 +28,7 @@
         </RequiredRuntimeList>
     </ExecutionEnvironment>
     <DispatchInfoList>
-        <Extension Id="com.dlighthouse.t1.ext">
+        <Extension Id="com.dlighthouse.helloworld.simple">
             <DispatchInfo>
                 <Resources>
                     <MainPath>./index.html</MainPath>
